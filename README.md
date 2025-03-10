@@ -12,6 +12,7 @@
 1. [Disk Analyzer](#disk-analyzer) - Analyzes disk usage and provides a summary of space consumed by files and directories.
 2. [Directory Health Analyzer](#directory-health-analyzer) - Analyzes the health of a directory and provides a breakdown of file types.
 3. [URL Extractor](#URL-Extractor-Script) - Scrapes data from websites and saves it in a structured format (e.g., CSV, JSON).
+4. [System Info](#System-Info-Script) - Scrapes data from websites and saves it in a structured format (e.g., CSV, JSON).
 
 ---
 ![Project Image](https://i.ibb.co/G4zRHT9D/base.jpg)
@@ -233,3 +234,102 @@ After execution, you will find a file named `output.csv` in the same directory c
 #### License
 
 This script is provided as-is without warranty of any kind. Feel free to modify and use it for personal or educational purposes. If you plan to use it in a commercial application, please ensure compliance with the relevant licenses and legal requirements.
+
+---
+
+## System Info Script
+
+This Python script provides comprehensive information about your system's critical statistics and components. It gathers data on the operating system, CPU, memory, disk usage, and network interfaces, and offers suggestions for improving system performance. The script displays the information in a user-friendly table format, exports the data to a CSV file, and generates a graphical representation of resource usage.
+
+## Features
+
+- **System Information**: Retrieves and displays critical information about the operating system, CPU, RAM, and disk usage.
+- **Performance Suggestions**: Provides actionable recommendations for optimizing system performance.
+- **Data Export**: Exports the gathered system information to a CSV file for easy reference.
+- **Graphical Representation**: Generates a bar chart to visualize CPU usage, RAM used, and disk usage.
+
+## Requirements
+
+To run the script, you will need Python 3.x and the following libraries:
+
+- `psutil`: For gathering system information.
+- `pandas`: For handling data and exporting to CSV.
+- `matplotlib`: For creating graphical representations.
+
+You can install the required libraries using pip:
+
+```bash
+pip install psutil pandas matplotlib
+```
+
+## Usage
+
+1. **Download the Script**: Save the script to a file named `system_info.py`.
+
+2. **Run the Script**: Execute the script using Python:
+
+   ```bash
+   python system_info.py
+   ```
+
+3. **View Output**: The script will output system information to the console, export the data to a file named `system_info.csv`, and generate a bar chart saved as `system_usage.png`.
+
+## Output
+
+- **Console Output**: The system information will be printed in a table format.
+- **CSV File**: A file named `system_info.csv` will be created in the same directory as the script, containing the system information.
+- **Graph Image**: A bar chart image named `system_usage.png` will be generated to visualize CPU, RAM, and disk usage.
+
+## Performance Suggestions
+
+The script analyzes the system stats and provides suggestions based on:
+
+- Available RAM
+- Disk usage percentage
+- CPU usage percentage
+- RAM usage relative to total RAM
+
+## Example Output
+
+```
+--- System Information ---
+          Component                Value
+              OS                   Linux
+         OS Version           5.4.0-42-generic
+          OS Release                 5.4.0
+       Architecture              64bit
+          Hostname              your-hostname
+         IP Address              192.168.1.2
+        CPU Cores                  4
+      CPU Usage (%)              35.5
+    RAM Total (GB)                15.0
+  RAM Available (GB)              10.5
+      RAM Used (GB)                 4.5
+    Disk Usage (%)                  65
+    Disk Total (GB)                500
+      Disk Used (GB)               325
+      Disk Free (GB)               175
+
+--- Performance Suggestions ---
+- Your CPU is under heavy load. Check for resource-heavy applications.
+```
+
+### Customization
+
+You can customize the script by adding additional metrics or modifying the performance suggestions based on your specific needs. The script is designed to be easily extensible.
+
+### License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+### Acknowledgements
+
+- This script utilizes the `psutil`, `pandas`, and `matplotlib` libraries, which are open-source and widely used in the Python community for system monitoring and data visualization.
+
+### Contributing
+
+Contributions are welcome! If you have suggestions for improvements or additional features, feel free to create an issue or pull request.
+
+### Contact
+
+For questions or feedback, you can reach me at [Russell UNT](mailto:russellhenderson@my.unt.edu)
