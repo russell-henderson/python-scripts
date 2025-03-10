@@ -13,6 +13,7 @@
 2. [Directory Health Analyzer](#directory-health-analyzer) - Analyzes the health of a directory and provides a breakdown of file types.
 3. [URL Extractor](#URL-Extractor-Script) - Scrapes data from websites and saves it in a structured format (e.g., CSV, JSON).
 4. [System Info](#System-Info-Script) - Scrapes data from websites and saves it in a structured format (e.g., CSV, JSON).
+5. [List Directory Files](#list-directory-files) - Scrapes data from websites and saves it in a structured format (e.g., CSV, JSON).
 
 ---
 ![Project Image](https://i.ibb.co/G4zRHT9D/base.jpg)
@@ -85,7 +86,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [Tabulate](https://pypi.org/project/tabulate/) for formatted table output.
 
 ---
-
+![Project Image](https://i.ibb.co/8n593Z39/analyze.jpg)
 ## Directory Health Analyzer
 
 This Python script analyzes a specified directory, counts the occurrences of different file types, and generates a text file listing the results as well as a bar graph visualizing the breakdown of the files by type.
@@ -164,7 +165,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - This script uses the `os` and `matplotlib` libraries for directory traversal and data visualization, respectively.
 
 ---
-
+![Project Image](https://i.ibb.co/qYD5HTB7/Albedo-Base-XL-A-simple-Python-script-that-extracts-all-URLs-fr-3.jpg)
 ## URL Extractor Script
 
 A simple Python script that extracts all URLs from a specified webpage and saves them to a CSV file. This script utilizes the `requests` library for HTTP requests and `BeautifulSoup` for parsing HTML.
@@ -236,7 +237,7 @@ After execution, you will find a file named `output.csv` in the same directory c
 This script is provided as-is without warranty of any kind. Feel free to modify and use it for personal or educational purposes. If you plan to use it in a commercial application, please ensure compliance with the relevant licenses and legal requirements.
 
 ---
-
+![Project Image](https://i.ibb.co/zHfqCfL9/disk.jpg)
 ## System Info Script
 
 This Python script provides comprehensive information about your system's critical statistics and components. It gathers data on the operating system, CPU, memory, disk usage, and network interfaces, and offers suggestions for improving system performance. The script displays the information in a user-friendly table format, exports the data to a CSV file, and generates a graphical representation of resource usage.
@@ -330,6 +331,126 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Contributions are welcome! If you have suggestions for improvements or additional features, feel free to create an issue or pull request.
 
-### Contact
 
-For questions or feedback, you can reach me at [Russell UNT](mailto:russellhenderson@my.unt.edu)
+---
+
+![Project Image](https://i.ibb.co/zHfqCfL9/disk.jpg)
+## List Directory Files
+
+## Overview
+
+`list_files.py` is a Python script that generates a text file containing the hierarchical structure of files and directories starting from a specified directory. The output is formatted in a tree structure, making it easy to visualize the organization of files and folders.
+
+## Features
+
+- Recursively lists all files and folders in the specified directory.
+- Outputs the directory structure in a readable tree format.
+- Default directory is set to `E:\_women`, but can be modified to any valid directory path.
+- Creates a text file named `file_structure.txt` in the same directory as the script.
+
+## Requirements
+
+- Python 3.x installed on your machine.
+- Basic knowledge of running scripts in a command line interface.
+
+## Installation
+
+1. **Download Python**: If you don't have Python installed, download it from [python.org](https://www.python.org/downloads/) and install it.
+
+2. **Download the Script**: Copy the `list_files.py` script and save it to your preferred directory.
+
+### Usage
+
+1. **Open Command Prompt or Terminal**:
+   - Navigate to the directory where you saved `list_files.py`.
+
+2. **Run the Script**:
+   - Execute the script by typing the following command:
+     ```bash
+     python list_files.py
+     ```
+
+3. **Output**:
+   - After running the script, it will create a file named `file_structure.txt` in the same directory where the script is located.
+   - The `file_structure.txt` will contain the tree structure of the specified directory (`E:\_women` by default).
+
+4. **Change the Default Directory**:
+   - To change the directory from which to list files, modify the `directory` variable in the script:
+     ```python
+     directory = r"E:\_women"  # Change this to your desired directory path
+     ```
+
+### Example Output
+
+If the directory structure of `E:\_women` is as follows:
+
+```
+E:\_women
+    /sub_dir
+        file1.txt
+        file2.txt
+    file3.txt
+```
+
+The content of `file_structure.txt` will be:
+
+```
+_women/
+    sub_dir/
+        file1.txt
+        file2.txt
+    file3.txt
+```
+
+### Error Handling
+
+- If the specified directory does not exist, the script will output an error message:
+  ```
+  The specified path is not a valid directory. Please check the path and try again.
+  ```
+
+### Contributing
+
+Contributions are welcome! If you have suggestions or improvements, feel free to create a pull request or open an issue.
+
+### License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+<img src="https://i.ibb.co/5h7BZWrm/Albedo-Base-XL-a-gta5-inspired-coder-style-avatar-with-a-cool-a-3.jpg" 
+     alt="BIO" 
+     width="300" 
+     style="box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);">
+
+
+## ✨ Connect with Me
+
+I'm always open to discussions and collaborations! Feel free to reach out through any of the platforms below:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0e76a8?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/russelllhenderson)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/rusty_dallas)
+[![Instagram](https://img.shields.io/badge/Instagram-D50032?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/rhendersonnft/)
+[![Discord](https://img.shields.io/badge/Discord-7289DA?style=flat&logo=discord&logoColor=white)](https://discord.gg/FNvb5ECEd8)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/russell-henderson)
+[![Telegram](https://img.shields.io/badge/Telegram-0088CC?style=flat&logo=telegram&logoColor=white)](https://t.me/@hexbutt)
+[![TikTok](https://img.shields.io/badge/TikTok-000000?style=flat&logo=tiktok&logoColor=white)](https://www.tiktok.com/@rustycalifornia)
+
+## 🌍 Support My Work
+
+If you appreciate my work and would like to support my contributions, consider donating to one of the following organizations:
+
+- [SurfRider Foundation](https://www.surfrider.org)
+- [Amnesty International](https://www.amnesty.org)
+- [Doctors Without Borders](https://www.doctorswithoutborders.org)
+- [HG Blockchain Development](https://www.linkedin.com/company/hg-dev/)
+
+## 📧 Contact Information
+
+For inquiries, please email me at: [russellhenderson@my.unt.edu](mailto:russellhenderson@my.unt.edu)
+
+---
+
+<div style="text-align: center;">
+  <small>© 2025 Russell Henderson. Share, rip, improve and enhance.</small>
+</div>
