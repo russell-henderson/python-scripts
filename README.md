@@ -9,12 +9,14 @@
 
 ### Python Scripts with Descriptions
 
-1. [Disk Analyzer](#disk-analyzer) - Analyzes disk usage and provides a summary of space consumed by files and directories.
-2. [Directory Health Analyzer](#directory-health-analyzer) - Analyzes the health of a directory and provides a breakdown of file types.
-3. [URL Extractor](#URL-Extractor-Script) - Scrapes data from websites and saves it in a structured format (e.g., CSV, JSON).
-4. [System Info](#System-Info-Script) - Scrapes data from websites and saves it in a structured format (e.g., CSV, JSON).
+1. [Disk Analyzer](@disk-analyzer) - Analyzes disk usage and provides a summary of space consumed by files and directories.
+2. [Directory Health Analyzer](@directory-health-analyzer) - Analyzes the health of a directory and provides a breakdown of file types.
+3. [URL Extractor](@URL-Extractor-Script) - Scrapes data from websites and saves it in a structured format (e.g., CSV, JSON).
+4. [System Info](@System-Info-Script) - Scrapes data from websites and saves it in a structured format (e.g., CSV, JSON).
 5. [List Directory Files](#list-directory-files) - Scrapes data from websites and saves it in a structured format (e.g., CSV, JSON).
-
+6. [Terminal_Fractal_Explorer](@terminal_fractal_explorer) - Mandelbrot + Julia (color, pan, zoom, save, record).
+7. [Convert png to ico](@convert_png_to_ico) - Mandelbrot + PNG to ICO converter.
+8. [File Maintenance](@file_maintenance) - Designed to help organize files in a target folder.
 ---
 ![Project Image](https://i.ibb.co/G4zRHT9D/base.jpg)
 ## Disk Analyzer
